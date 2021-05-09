@@ -1,0 +1,29 @@
+.Banner {
+  /* background: url(./photo-1561501900-3701fa6a0864.jpeg);*/
+  background-image: url("https://thumbor.forbes.com/thumbor/2000x1009/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5cdb058a5218470008b0b00f%2F0x0.jpg%3Ffit%3Dscale");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 600px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.bannerSearch > button{
+   background-color: white;
+   font-weight: 900;
+   text-transform: inherit;
+   color: #ff7779;
+}
+.BannerInfo {
+  background-color: black;
+  color: white;
+  padding-top: 25%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 400px;
+}
+.BannerInfo > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+}

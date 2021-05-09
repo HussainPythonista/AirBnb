@@ -20,11 +20,15 @@ function Header() {
             </div>
 
             <div className="headerRight">
-                <p><b><i>Become a host</i></b></p>
-                <LanguageIcon></LanguageIcon>
-                <ExpandMore>
+                <p className="host"><i>Become a host</i></p>
+                <div className="language"> 
+                    <LanguageIcon></LanguageIcon>
+                </div>
+                <div className="Expand"> 
+                    <ExpandMore>
 
-                </ExpandMore>
+                    </ExpandMore>
+                </div>
                 <Avatar></Avatar>
             </div>
         </div>

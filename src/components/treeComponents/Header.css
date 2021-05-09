@@ -4,6 +4,15 @@
   width: 200px;
   padding-left: 50px;
 }
+.host {
+  margin-right: 10px;
+}
+.Expand {
+  margin-right: 10px;
+}
+.language {
+  margin-right: 10px;
+}
 .header {
   display: flex;
   justify-content: space-between;
