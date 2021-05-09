@@ -1,0 +1,6 @@
+.logoImage {
+  object-fit: contain;
+  height: 100px;
+  width: 200px;
+  padding-left: 50px;
+}
