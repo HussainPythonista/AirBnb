@@ -4,3 +4,36 @@
   width: 200px;
   padding-left: 50px;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+}
+.headerCenter > input {
+  border: none;
+  padding: 10px;
+  outline-width: 0;
+  width: 250px;
+}
+.headerCenter {
+  display: flex;
+  align-items: center;
+  max-width: fit-content;
+  flex: 1;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 999px;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  width: 15vw;
+
+  margin-right: 80px;
+}
