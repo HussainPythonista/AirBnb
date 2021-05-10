@@ -1,16 +1,18 @@
 import React, {useState} from 'react'
 import "./Banner.css"
 import { Button } from "@material-ui/core"
+import Search from "./Search"
+
 function Banner() {
     const [showSearch,setShowSearch]=useState(false)
     return (
         <div className="Banner">
-            {showSearch && <h1>fuck you</h1>}
+            {showSearch && <Search></Search>}
             
             <div className="bannerSearch">
             <Button ></Button>
             <Button onClick={()=>setShowSearch(!showSearch)}//We use !variable instead of showSearch=true,because ReactDom Does not assign the value
-            
+
             className="searchButton" 
                 variant='outlined'><b>Search Dates</b>
             </Button>

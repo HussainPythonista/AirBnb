@@ -12,26 +12,13 @@
   font-weight: 900;
   text-transform: inherit;
   color: #ff7779;
-  
 }
 .bannerSearch {
   display: flex;
   flex-direction: column;
   background: white;
-    }
-    .bannerSearch:hover:before {
-        content: '';
-        position: fixed;
-        display: block;
-        top: 0; bottom: 0; left: 0; right: 0;
-        z-index: -1;
-        
 }
 
-
-.bannerSearch:hover {
-  background-color: white;
-}
 .BannerInfo {
   background-color: black;
   color: white;
