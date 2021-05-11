@@ -14,7 +14,7 @@ function Banner() {
             <Button onClick={()=>setShowSearch(!showSearch)}//We use !variable instead of showSearch=true,because ReactDom Does not assign the value
 
             className="searchButton" 
-                variant='outlined'><b>Search Dates</b>
+                variant='outlined'><b>{showSearch? "Hide":"Search Dates"}</b>
             </Button>
             </div>
             

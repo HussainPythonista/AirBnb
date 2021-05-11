@@ -1,5 +1,7 @@
-.Search {
+.Search{
+  
   position: absolute;
+  
   top: 35px;
   left: 25%;
   width: 100vw;
@@ -11,10 +13,10 @@
   justify-content: space-between;
   width: 559px;
   padding: 10px;
-  background-color: white;
   position: absolute;
   left: 0;
-  top: 380px;
+  background-color: white;
+  
 }
 .Search > input {
   width: 539px;
@@ -37,9 +39,11 @@
   color: white;
   width: 579px;
   font-weight: bolder;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 20px;
 }
-.Search > button:hover{
-    background-color: white;
-    color: #ff7779;
+.Search > button:hover {
+  background-color: white;
+  color: #ff7779;
 }

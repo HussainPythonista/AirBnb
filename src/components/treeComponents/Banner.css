@@ -11,7 +11,7 @@
   background-color: white;
   font-weight: 900;
   text-transform: inherit;
-  color: #ff7779;
+  color:#ff7779;
 }
 .bannerSearch {
   display: flex;
@@ -26,7 +26,8 @@
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 40px;
-  width: 400px;
+  width: 500px;
+  height: 220px;
 }
 .BannerInfo > button {
   background-color: #ff7779;
