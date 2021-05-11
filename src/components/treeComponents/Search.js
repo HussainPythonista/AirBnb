@@ -6,11 +6,15 @@ import "react-date-range/dist/theme/default.css";
 import { Button } from "@material-ui/core"
 import PeopleIcon from "@material-ui/icons/People"
 import { Icon } from '@material-ui/core/Icon';
+import { useHistory } from 'react-router';
+
 
 
 //Date Picker Components
 
 function Search() {
+    const history=useHistory()
+
     //To use the datePicker we need two important variable
     //1.Start Date
     const [startDate,setStartDate]=useState(new Date())
@@ -39,7 +43,7 @@ function Search() {
             
             <h2>Number of Guests <PeopleIcon></PeopleIcon></h2> 
             <input min={0} defaultValue={2} type="number"></input>
-                <Button>Search AirBnB</Button>
+                <Button onClick={()=>history.push("/search")}>Search AirBnB</Button>
             
         </div>
     )
